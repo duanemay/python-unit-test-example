@@ -110,6 +110,13 @@ def greet(name):
     return f"Hello {name}!"
 ```
 
+Now run the tests again, and they should be passing again.
+
+
+```bash
+pytest
+```
+
 ## Run the tests with coverage
 
 ```bash
